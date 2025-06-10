@@ -1,0 +1,42 @@
+.visiting-card {
+  width: 320px;
+  font-family: 'Segoe UI', sans-serif;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card-header {
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.card-body {
+  font-size: 0.95rem;
+}
+
+
+input, textarea {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.9rem;
+}
+
+textarea {
+  resize: none;
+}
+
+.icon {
+  width: 14px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+.visiting-card-modern {
+  font-family: 'Segoe UI', sans-serif;
+  transition: transform 0.3s ease;
+}
+.visiting-card-modern:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
